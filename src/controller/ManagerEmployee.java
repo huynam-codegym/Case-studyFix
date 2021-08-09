@@ -120,7 +120,7 @@ public class ManagerEmployee {
         String name = this.scanner.nextLine();
 
         int i;
-        for(i = 0; i < this.list.size(); ++i) {
+        for(i = 0; i < this.list.size(); i++) {
             if (((Employee)this.list.get(i)).getName().equals(name)) {
                 PrintStream var10000 = System.out;
                 String var10001 = ((Employee)this.list.get(i)).toString();
